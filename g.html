@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	    <head>
+	        <title>Der Fuszcast! JEtzt auch im internet!</title>
+	    </head>
+	    <style>
+	    @import url('https://fonts.googleapis.com/css?family=Muli');
+	    body {
+	    	background-color: red; 	
+	    }
+	    p {
+	    	font-family: 'Muli', sans-serif;
+	    	font-size: 32px;
+	    	color: white;
+	    }
+	    </style>
+	    <body>
+			<div id="app-5">
+			  <p>{{ message }}</p>
+			  <input v-model="message" placeholder="gobald">
+			  <button v-on:click="reverseMessage">Bi</button>
+			</div>
+	    </body>
+	    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	    <script>
+	    	
+		var app5 = new Vue({
+			  el: '#app-5',
+			  data: {
+			    message: ''
+			  },
+			  methods: {
+			    reverseMessage: function () {
+			      this.message = this.message.toLowerCase().split('i').join('ibi').split('a').join('abi').split('e').join('ebi').split('o').join('obi').split('u').join('ubi')
+			    }
+			  }
+			})
+		</script>
+	</html>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+
+body {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-image: url("./gibel.jpg");
+    font-size: 24pt;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+a,
+a:visited,
+a:link,
+a:hover {
+	color: red;
+	
+}
+
+footer {
+    font-size: 16px;
+    size: 3mm
+}
